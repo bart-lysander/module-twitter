@@ -2981,6 +2981,7 @@ class Twitter
         }
 
         header('Location: ' . $url);
+        exit;
     }
 
     /**

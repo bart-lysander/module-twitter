@@ -2981,7 +2981,6 @@ class Twitter
         }
 
         header('Location: ' . $url);
-        exit;
     }
 
     /**
@@ -2995,6 +2994,7 @@ class Twitter
 
         header('Location: ' . self::SECURE_API_URL .
                '/oauth/authorize?oauth_token=' . $token);
+        exit;
     }
 
     /**
